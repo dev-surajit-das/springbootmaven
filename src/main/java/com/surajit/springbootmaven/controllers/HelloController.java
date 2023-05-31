@@ -10,4 +10,9 @@ public class HelloController {
   public String printHelloWorld() {
     return "Hello, World!";
   }
+
+  @GetMapping("/devtools")
+  public String printDevtools() {
+    return "Hi, There!";
+  }
 }
